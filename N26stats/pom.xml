@@ -5,7 +5,7 @@
 
 	<groupId>com.n26.challenge.mauricio.batlle.n26stats</groupId>
 	<artifactId>N26stats</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 
 	<name>N26stats</name>
@@ -48,6 +48,26 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+				<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>LATEST</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>LATEST</version>
+		</dependency>
+		
+		
+		<dependency>
+
+    <groupId>org.springframework.boot</groupId>
+
+    <artifactId>spring-boot-starter-jdbc</artifactId>
+
+</dependency>
 	</dependencies>
 
 	<build>

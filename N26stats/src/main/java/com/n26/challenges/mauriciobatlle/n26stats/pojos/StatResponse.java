@@ -1,8 +1,13 @@
 package com.n26.challenges.mauriciobatlle.n26stats.pojos;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class StatResponse {
 	private Double sum,avg,max,min;
 	private Long count;
+	
+
 	public Double getSum() {
 		return sum;
 	}
@@ -33,5 +38,6 @@ public class StatResponse {
 	public void setCount(Long count) {
 		this.count = count;
 	}
+	
 
 }
